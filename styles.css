@@ -4,17 +4,42 @@
 }
 
 body {
-  background: #f8fafc;
-  color: #111827;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  line-height: 1.7;
 }
 
-h1, h2, h3 {
-  color: #0f766e;
+.about-name {
+  color: #004C8C;
+  font-weight: 700;
 }
 
-a {
-  color: #2563eb;
+.about-links .btn {
+  border-radius: 0.5rem;
+  margin: 0.2rem;
+  background-color: #f8f9fa;
+  border: 1px solid #dcdcdc;
 }
-a:hover {
+.about-links .btn:hover {
+  background-color: #e7f0ff;
+}
+
+/* ---------- Blue footer section ---------- */
+.site-footer {
+  background-color: #004C8C;
+  color: #e5e7eb;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.site-footer a {
+  color: #e5e7eb;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.site-footer a:hover {
   text-decoration: underline;
 }
