@@ -1,14 +1,40 @@
 ---
-title: "ETC5523 Blog Assessment"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
-page-layout: full
-title-block-banner: true
+title: "Jin Hu"
+subtitle: "Master’s Student in Health Data Analysis"
+about:
+  template: trestles
+  image: images/image1.jpg
+  image-shape: rounded
+  image-alt: "Jin Hu"
+  links:
+    - icon: github
+      text: "GitHub"
+      href: https://github.com/Jiner-H
+    - icon: linkedin
+      text: "LinkedIn"
+      href: https://www.linkedin.com/in/jin-h-73171b370/
+   
+format:
+  html:
+    toc: false
 ---
+
+Hi, I’m **Jin Hu**, a Master’s student at **Monash University** focusing on **Health data Analysis**. 
+I work with **R and Python** for health data analysis (survival analysis, GEE, mixed models).  
+Recently, I’ve analysed MIMIC ICU data and NSW road-crash data, and presented applied survival models to non-technical audiences.
+I value reproducible research with Quarto, tidy workflows, and clear communication of methods and limitations.
+I’m currently looking for internships in the health analytics field.
+
+<div class="contact-card">
+
+**📍 Monash University**  
+Clayton, VIC 3800  
+Australia  
+
+**✉️ Email:** [jhuu0096@student.monash.edu](mailto:jhuu0096@student.monash.edu)  
+**🐙 GitHub:** [Jiner-H](https://github.com/Jiner-H)  
+**🔗 LinkedIn:** [Jin Hu](https://www.linkedin.com/in/jin-h-73171b370/)  
+
+</div>
 
 

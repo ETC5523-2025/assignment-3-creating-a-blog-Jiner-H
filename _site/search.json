@@ -1,38 +1,38 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Jin Hu",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
     "section": "",
-    "text": "Hi, I’m Jin Hu, a Master’s student at Monash University focusing on Health data Anlysis. I work with R and Python for health data analysis (survival analysis, GEE, mixed models).\nRecently, I’ve analysed MIMIC ICU data and NSW road-crash datasets, and presented applied survival models to non-technical audiences. I value reproducible research with Quarto, tidy workflows, and clear communication of methods and limitations. I’m currently open to internships in health analytics.\n\n📍 Monash University\nClayton, VIC 3800\nAustralia\n✉️ Email: jhuu0096@student.monash.edu\n🐙 GitHub: Jiner-H\n🔗 LinkedIn: Jin Hu\n\n\nJin Hu Master’s Student in Health Data Analysis Monash University © 2025 Jin Hu | Email | GitHub | LinkedIn | Melbourne, Australia"
+    "text": "How the Delta Variant Challenged Australia’s Border Quarantine System\n\n\n\nCOVID-19\n\nPublic Health\n\nData Analysis\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nJin Hu\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/delta_quarantine/index.html",
     "href": "posts/delta_quarantine/index.html",
     "title": "How the Delta Variant Challenged Australia’s Border Quarantine System",
     "section": "",
-    "text": "When Australia first faced the Delta variant of COVID-19, strict border quarantine systems were our shield. Travellers spent two weeks in isolation while staff worked under tight infection-control rules. But Delta was different—more infectious, harder to contain, and faster to spread.\nCould our quarantine hotels still hold the line, or would vaccination become the only real defence?"
+    "text": "When Australia first faced the Delta variant of COVID-19, strict border quarantine systems were our shield. Travelers spent two weeks in isolation while staff worked under tight infection-control rules. But Delta was different who is more infectious, harder to contain, and faster to spread.\nCould our quarantine hotels still hold the line, or would vaccination become the only real defence?"
   },
   {
     "objectID": "posts/delta_quarantine/index.html#the-challenge",
     "href": "posts/delta_quarantine/index.html#the-challenge",
     "title": "How the Delta Variant Challenged Australia’s Border Quarantine System",
     "section": "",
-    "text": "When Australia first faced the Delta variant of COVID-19, strict border quarantine systems were our shield. Travellers spent two weeks in isolation while staff worked under tight infection-control rules. But Delta was different—more infectious, harder to contain, and faster to spread.\nCould our quarantine hotels still hold the line, or would vaccination become the only real defence?"
+    "text": "When Australia first faced the Delta variant of COVID-19, strict border quarantine systems were our shield. Travelers spent two weeks in isolation while staff worked under tight infection-control rules. But Delta was different who is more infectious, harder to contain, and faster to spread.\nCould our quarantine hotels still hold the line, or would vaccination become the only real defence?"
   },
   {
     "objectID": "posts/delta_quarantine/index.html#what-the-data-showed",
     "href": "posts/delta_quarantine/index.html#what-the-data-showed",
     "title": "How the Delta Variant Challenged Australia’s Border Quarantine System",
     "section": "What the Data Showed",
-    "text": "What the Data Showed\nThis post summarises results from the modelling study by Zachreson et al. (2022), which tested quarantine performance under varying vaccine efficacy and viral transmissibility.\n\n1 Quarantine Breach Risk\nThe model simulated a 100-traveller facility and measured how often infected cases could leak into the community. When the basic reproduction number (R₀) = 6, vaccines needed to block at least 60 % of transmission to maintain pre-Delta safety. When R₀ = 8, about 70 % was required.\n\n\n\n\n\n\nFigure 1: Breach risk falls as vaccine efficacy increases.\n\n\n\nAs shown in Figure 1, risk decreases as vaccine efficacy improves.\n\n\n2 Outbreak Probability\nWhen community coverage exceeded 80 % and vaccines were ≥ 90 % effective, outbreaks were delayed by over 100 days. At ≤ 60 % efficacy, outbreaks re-emerged within weeks.\n\n\n\nTable 1: Delay before outbreak by efficacy and R₀\n\n\n\n\n\nVaccine efficacy\nR₀\nDelay before outbreak (days)\n\n\n\n\n60 %\n6\n15\n\n\n70 %\n8\n45\n\n\n90 %\n8\n100+\n\n\n\n\n\n\nAs shown in Table 1, higher efficacy delays outbreaks."
+    "text": "What the Data Showed\nThis post summarizes results from the modelling study by Zachreson et al. (2022), which tested quarantine performance under varying vaccine efficacy and viral transmissibility.\n\n1 Quarantine Breach Risk\nThe model simulated a 100-traveler facility and measured how often infected cases could leak into the community. When the basic reproduction number (R₀) = 6, vaccines needed to block at least 60 % of transmission to maintain pre-Delta safety. When R₀ = 8, about 70 % was required.\n\n\n\n\n\n\nFigure 1: Breach risk falls as vaccine efficacy increases.\n\n\n\nAs shown in Figure 1, risk decreases as vaccine efficacy improves.\n\n\n2 Outbreak Probability\nWhen community coverage exceeded 80 % and vaccines were ≥ 90 % effective, outbreaks were delayed by over 100 days. At ≤ 60 % efficacy, outbreaks re-emerged within weeks.\n\n\n\nTable 1: Delay before outbreak by efficacy and R₀\n\n\n\n\n\nVaccine efficacy\nR₀\nDelay before outbreak (days)\n\n\n\n\n60 %\n6\n15\n\n\n70 %\n8\n45\n\n\n90 %\n8\n100+\n\n\n\n\n\n\nAs shown in Table 1, higher efficacy delays outbreaks."
   },
   {
     "objectID": "posts/delta_quarantine/index.html#so-what-does-it-mean",
     "href": "posts/delta_quarantine/index.html#so-what-does-it-mean",
     "title": "How the Delta Variant Challenged Australia’s Border Quarantine System",
     "section": "So, What Does It Mean?",
-    "text": "So, What Does It Mean?\nThe study makes one thing clear: quarantine alone cannot stop highly transmissible variants.\nIt buys time—but lasting protection comes only from widespread vaccination and strong infection-control practice. For policymakers, this means focusing resources on mass vaccination, rapid testing, and staff protection, rather than relying solely on quarantine hotels."
+    "text": "So, What Does It Mean?\nThe study makes one thing clear: quarantine alone cannot stop highly transmissible variants.\nIt buys time but protection comes only from widespread vaccination and strong infection-control practice. For policymakers, this means focusing resources on mass vaccination, rapid testing, and staff protection, rather than relying solely on quarantine."
   },
   {
     "objectID": "posts/delta_quarantine/index.html#reference",
@@ -44,8 +44,8 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "ETC5523 Blog Assessment",
+    "title": "Jin Hu",
     "section": "",
-    "text": "How the Delta Variant Challenged Australia’s Border Quarantine System\n\n\n\nCOVID-19\n\nPublic Health\n\nData Analysis\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nJin Hu\n\n\n\n\n\nNo matching items"
+    "text": "Hi, I’m Jin Hu, a Master’s student at Monash University focusing on Health data Analysis. I work with R and Python for health data analysis (survival analysis, GEE, mixed models).\nRecently, I’ve analysed MIMIC ICU data and NSW road-crash data, and presented applied survival models to non-technical audiences. I value reproducible research with Quarto, tidy workflows, and clear communication of methods and limitations. I’m currently looking for internships in the health analytics field.\n\n📍 Monash University\nClayton, VIC 3800\nAustralia\n✉️ Email: jhuu0096@student.monash.edu\n🐙 GitHub: Jiner-H\n🔗 LinkedIn: Jin Hu"
   }
 ]

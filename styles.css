@@ -1,45 +1,184 @@
-/* css styles */
-.navbar-dark, .quarto-title-banner {
-  background-color: #006DAE;
+/* =========================================================
+   Global palette (tweak these if you want different tones)
+   ========================================================= */
+:root {
+  --blue-900: #004C8C;   /* dark navbar + footer */
+  --blue-800: #0f436f;   /* hover/active tint on dark bg */
+  --blue-600: #2563eb;   /* link color in content */
+  --ink-900:  #1a1a1a;   /* main text */
+  --ink-700:  #374151;   /* secondary text */
+  --paper:    #ffffff;   /* page background */
+  --muted:    #f8f9fa;   /* subtle cards/buttons */
+  --muted-br: #dcdcdc;   /* subtle borders */
 }
 
-body {
-  background-color: #ffffff;
-  color: #1a1a1a;
+/* =========================================================
+   Page basics
+   ========================================================= */
+html, body {
+  background-color: var(--paper);
+  color: var(--ink-900);
   line-height: 1.7;
 }
 
+/* Optional: nicer heading color/spacing in content */
+main h1, main h2, main h3 {
+  color: var(--blue-800);
+  margin-top: 1.6rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Links within content */
+main a {
+  color: var(--blue-600);
+  text-decoration: none;
+}
+main a:hover,
+main a:focus {
+  text-decoration: underline;
+}
+
+/* Images */
+main img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Tables */
+main table {
+  width: 100%;
+  border-collapse: collapse;
+}
+main th, main td {
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #e5e7eb;
+}
+
+/* Code blocks */
+pre code, code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+}
+
+/* =========================================================
+   Top navbar (forced dark blue)
+   ========================================================= */
+.navbar,
+.navbar.navbar-light,
+.navbar.navbar-dark {
+  background-color: var(--blue-900) !important;
+  border-bottom: none;
+  box-shadow: none;
+}
+
+/* Brand + nav links + right-side tools/icons */
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .quarto-navbar-tools a,
+.navbar .bi,
+.navbar .navbar-text,
+.navbar .quarto-search-button {
+  color: #ffffff !important;
+}
+
+/* Hover/active links in navbar */
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #e5e7eb !important;
+}
+.navbar .nav-link.active,
+.navbar .nav-link[aria-current="page"] {
+  color: #e5e7eb !important;
+  border-bottom: 2px solid #e5e7eb;
+  margin-bottom: -2px;
+}
+
+/* Mobile toggler (hamburger) */
+.navbar .navbar-toggler {
+  border-color: rgba(255,255,255,0.45);
+}
+.navbar .navbar-toggler-icon {
+  filter: invert(1) brightness(1.2); /* make icon white */
+}
+
+/* Dropdown menu inside dark navbar (if you ever add one) */
+.navbar .dropdown-menu {
+  background-color: var(--blue-900);
+  border: 1px solid rgba(255,255,255,0.15);
+}
+.navbar .dropdown-item {
+  color: #ffffff;
+}
+.navbar .dropdown-item:hover,
+.navbar .dropdown-item:focus,
+.navbar .dropdown-item.active {
+  background-color: var(--blue-800);
+  color: #ffffff;
+}
+
+/* Optional: title banner (used on some pages) */
+.quarto-title-banner {
+  background-color: var(--blue-900) !important;
+  color: #ffffff;
+}
+
+/* =========================================================
+   About page tweaks
+   ========================================================= */
 .about-name {
-  color: #004C8C;
+  color: var(--blue-900);
   font-weight: 700;
 }
 
 .about-links .btn {
   border-radius: 0.5rem;
-  margin: 0.2rem;
-  background-color: #f8f9fa;
-  border: 1px solid #dcdcdc;
+  margin: 0.25rem;
+  background-color: var(--muted);
+  border: 1px solid var(--muted-br);
+  color: var(--ink-900);
 }
-.about-links .btn:hover {
+.about-links .btn:hover,
+.about-links .btn:focus {
   background-color: #e7f0ff;
+  border-color: #c7d7ff;
 }
 
-/* ---------- Blue footer section ---------- */
+/* If the trestles template adds cards, keep them subtle */
+.about-contents .card,
+.card {
+  border: 1px solid #eef2f7;
+  border-radius: 0.75rem;
+}
+
+/* =========================================================
+   Blog listing polish (safe defaults if you add posts)
+   ========================================================= */
+.listing .listing-title a {
+  text-decoration: none;
+}
+.listing .listing-title a:hover {
+  text-decoration: underline;
+}
+.listing .listing-author,
+.listing .listing-date {
+  color: var(--ink-700);
+}
+
+/* =========================================================
+   Footer (blue bar)
+   ========================================================= */
 .site-footer {
-  background-color: #004C8C;
+  background-color: var(--blue-900);
   color: #e5e7eb;
   padding: 2rem 1rem;
   margin-top: 3rem;
   text-align: center;
   font-size: 0.95rem;
 }
-
 .site-footer a {
   color: #e5e7eb;
   text-decoration: none;
   margin: 0 0.5rem;
 }
-
 .site-footer a:hover {
   text-decoration: underline;
 }

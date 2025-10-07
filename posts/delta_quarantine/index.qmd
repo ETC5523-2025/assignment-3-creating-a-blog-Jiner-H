@@ -11,14 +11,14 @@ format:
 ---
 
 ## The Challenge
-When Australia first faced the Delta variant of COVID-19, strict border quarantine systems were our shield. Travellers spent two weeks in isolation while staff worked under tight infection-control rules. But Delta was different—more infectious, harder to contain, and faster to spread.  
+When Australia first faced the Delta variant of COVID-19, strict border quarantine systems were our shield. Travelers spent two weeks in isolation while staff worked under tight infection-control rules. But Delta was different who is more infectious, harder to contain, and faster to spread.  
 Could our quarantine hotels still hold the line, or would vaccination become the only real defence?
 
 ## What the Data Showed
-This post summarises results from the modelling study by Zachreson et al. (2022), which tested quarantine performance under varying vaccine efficacy and viral transmissibility.
+This post summarizes results from the modelling study by Zachreson et al. (2022), which tested quarantine performance under varying vaccine efficacy and viral transmissibility.
 
 ### 1 Quarantine Breach Risk
-The model simulated a 100-traveller facility and measured how often infected cases could leak into the community.
+The model simulated a 100-traveler facility and measured how often infected cases could leak into the community.
 When the basic reproduction number (R₀) = 6, vaccines needed to block at least 60 % of transmission to maintain pre-Delta safety.
 When R₀ = 8, about 70 % was required.
 
@@ -42,8 +42,8 @@ As shown in @tbl-delay, higher efficacy delays outbreaks.
 
 ## So, What Does It Mean?
 The study makes one thing clear: quarantine alone cannot stop highly transmissible variants.  
-It buys time—but lasting protection comes only from widespread vaccination and strong infection-control practice.
-For policymakers, this means focusing resources on mass vaccination, rapid testing, and staff protection, rather than relying solely on quarantine hotels.
+It buys time but protection comes only from widespread vaccination and strong infection-control practice.
+For policymakers, this means focusing resources on mass vaccination, rapid testing, and staff protection, rather than relying solely on quarantine.
 
 ## Reference:
 (1) Cameron Zachreson1 *, Freya M. Shearer2 , David J. Price2,3 , Michael J. Lydeamore4 , Jodie McVernon2,3,5 , James McCaw2,3,6 , Nicholas Geard1,3. COVID-19 in low-tolerance border quarantine systems: Impact oftheDelta variant of SARS-CoV-2. Science Advances.2022; Vol 8, Issue 14.doi: DOI: 10.1126/sciadv.abm362 
