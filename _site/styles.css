@@ -8,11 +8,11 @@ html, body {
 main a { color: #2563eb; text-decoration: none; }
 main a:hover { text-decoration: underline; }
 
-/* ====== Top navbar (dark blue) ====== */
+
 .navbar,
 .navbar.navbar-light,
 .navbar.navbar-dark {
-  background-color: #004C8C !important;
+  background-color: #87CEEB !important;
   border-bottom: none;
 }
 .navbar .navbar-brand,
@@ -27,9 +27,9 @@ main a:hover { text-decoration: underline; }
   color: #e5e7eb !important;
 }
 
-/* ====== Title banner (make titles pop) ====== */
+
 .quarto-title-banner {
-  background-color: #004C8C !important; /* keep banner aligned with navbar */
+  background-color: #004C8C !important;
   color: #ffffff;
 }
 .quarto-title-banner .quarto-title h1,
@@ -45,7 +45,8 @@ main a:hover { text-decoration: underline; }
   color: #f3f4f6 !important;
   text-shadow: 0 1px 3px rgba(0,0,0,0.2);
 }
-/* category chips */
+
+
 .quarto-title-banner .quarto-categories .quarto-category {
   color: #e5e7eb !important;
   border-color: rgba(255,255,255,0.6) !important;
@@ -57,7 +58,7 @@ main a:hover { text-decoration: underline; }
   color: #ffffff !important;
 }
 
-/* ====== About page buttons (optional) ====== */
+
 .about-links .btn {
   border-radius: 8px;
   margin: 0.25rem;
@@ -67,7 +68,7 @@ main a:hover { text-decoration: underline; }
 }
 .about-links .btn:hover { background: #e7f0ff; border-color: #c7d7ff; }
 
-/* ====== Footer (matches navbar) ====== */
+
 .site-footer {
   background: #004C8C;
   color: #e5e7eb;
